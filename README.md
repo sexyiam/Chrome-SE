@@ -3,3 +3,7 @@ You run the stub → Chrome opens with --simulate-upgrade → you click Finish u
 The payload fires only when you actually press Relaunch now
 
 Can be used to evade IOCs and analysis from procmon,prochacker via delaying the install for example dropping a sideload dll or signed application(payload)
+
+Strings are XOR encrypted just decrypt and edit yourself
+
+Contains no CRT, compile time string encryption, LOLBIN usage(curl.exe)
